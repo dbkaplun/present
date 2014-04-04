@@ -1,0 +1,42 @@
+{
+  "name": "present",
+  "version": "0.0.2",
+  "description": "High-res timestamps in Node and browser",
+  "main": "lib/present-node.js",
+  "browser": "lib/present-browser.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beardtree/present.git"
+  },
+  "keywords": [
+    "time",
+    "timestamp",
+    "high-res",
+    "high-resolution",
+    "nanosecond",
+    "millisecond",
+    "performance",
+    "now"
+  ],
+  "author": "Dan Kaplun <dan@beardtree.com> (http://beardtree.com/)",
+  "contributors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-jshint": "^1.5.1",
+    "jshint-stylish": "^0.1.5",
+    "tape": "^2.12.0",
+    "gulp-exec": "^1.0.4",
+    "istanbul": "^0.2.6",
+    "browser-resolve": "^1.2.2",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.2.1"
+  }
+}
