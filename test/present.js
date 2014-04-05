@@ -6,8 +6,8 @@ var present = require('..');
 var epsilon = 10; // has to be this high or tests fail
 
 function assertWithin (t, val, expected, range) {
-  t.ok(val >= expected - range);
-  t.ok(val <= expected + range);
+  t.ok(val >= expected - range, "val >= expected - range");
+  t.ok(val <= expected + range, "val <= expected + range");
 }
 
 function assertDifferenceAfter (t, n) {
