@@ -9,6 +9,7 @@ Installation
 In Node: `npm install present`
 
 In browser:
+
 1. Copy `present.js` or `present.min.js` (with optional source map at `present.min.js.map`)
 2. `<script src="path/to/present.{min.}js"></script>`
 3. `performance.now` is automatically polyfilled -- if this is undesired, `present.noConflict();`
