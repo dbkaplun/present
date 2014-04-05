@@ -1,6 +1,6 @@
 {
   "name": "present",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "High-res timestamps in Node and browser",
   "main": "lib/present-node.js",
   "browser": "lib/present-browser.js",
