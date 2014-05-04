@@ -28,7 +28,7 @@ Returns a timestamp. In node, this uses `process.hrtime`. In the browser, the fo
 * `performance.mozNow()`
 * `performance.oNow()`
 * `Date.now()`
-* `+new Date`
+* `new Date().getTime()`
 
 ### `present.noConflict()`
 _Browser only._ Resets `performance.now` to what it was before `present` was included or `present.conflict` was called.
