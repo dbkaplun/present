@@ -11,7 +11,7 @@ var present = (function () {
     }
   }
 
-  var dateNow = Date.now || function () { return +(new Date()); };
+  var dateNow = Date.now || function () { return new Date().getTime(); };
   var navigationStart = (performance.timing || {}).navigationStart || dateNow();
   return function () {
     return dateNow() - navigationStart;
