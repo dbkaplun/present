@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/beardtree/present.git"
+    "url": "git://github.com/dbkaplun/present.git"
   },
   "keywords": [
     "time",
@@ -21,7 +21,7 @@
     "performance",
     "now"
   ],
-  "author": "Dan Kaplun <dan@beardtree.com> (http://beardtree.com/)",
+  "author": "Dan Kaplun <dbkaplun@gmail.com> (http://dbkaplun.com/)",
   "contributors": [
     "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)"
   ],
