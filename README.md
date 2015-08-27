@@ -20,7 +20,7 @@ _Node only:_ `var present = require('present');`
 
 ### `present()`
 
-Returns a timestamp. In node, this uses `process.hrtime`. In the browser, the following are attempted (in order):
+Returns a timestamp in milliseconds. In node, this uses `process.hrtime`. In the browser, the following are attempted (in order):
 
 * `performance.now()`
 * `performance.webkitNow()`
