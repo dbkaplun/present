@@ -1,4 +1,4 @@
-present [![present on npm](https://img.shields.io/npm/dm/present.svg?maxAge=2592000)](https://www.npmjs.com/package/present)
+present [![present on npm](https://img.shields.io/npm/dm/present.svg?maxAge=2592000)](https://www.npmjs.com/package/present) [![build status](https://img.shields.io/travis/dbkaplun/present.svg?maxAge=2592000)](https://travis-ci.org/dbkaplun/present)
 =======
 
 High-res timestamps in Node and browser
